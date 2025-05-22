@@ -57,6 +57,7 @@ public class Assembly {
 	public String toString() {
 		return "Assembly [id=" + id + ", name=" + name + ", address=" + address + ", num=" + num + "]";
 	}
+	
 	 
 	 
 
