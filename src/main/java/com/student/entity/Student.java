@@ -5,7 +5,7 @@ public class Student {
 	 private int id;
 	 private String name;
 	 private String school;
-	 private long rollno;
+	
 	/**
 	 * @return the id
 	 */
@@ -42,22 +42,11 @@ public class Student {
 	public void setSchool(String school) {
 		this.school = school;
 	}
-	/**
-	 * @return the rollno
-	 */
-	public long getRollno() {
-		return rollno;
-	}
-	/**
-	 * @param rollno the rollno to set
-	 */
-	public void setRollno(long rollno) {
-		this.rollno = rollno;
-	}
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", school=" + school + ", rollno=" + rollno + "]";
+		return "Student [id=" + id + ", name=" + name + ", school=" + school + "]";
 	}
+	
 	 
 	 
 	 
