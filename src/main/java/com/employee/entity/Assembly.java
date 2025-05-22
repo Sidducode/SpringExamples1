@@ -4,7 +4,7 @@ public class Assembly {
 	 private int id;
 	 private String name;
 	 private String address;
-	 private long num;
+	 
 	/**
 	 * @return the id
 	 */
@@ -44,19 +44,16 @@ public class Assembly {
 	/**
 	 * @return the num
 	 */
-	public long getNum() {
-		return num;
-	}
+	
 	/**
 	 * @param num the num to set
 	 */
-	public void setNum(long num) {
-		this.num = num;
-	}
+	
 	@Override
 	public String toString() {
-		return "Assembly [id=" + id + ", name=" + name + ", address=" + address + ", num=" + num + "]";
+		return "Assembly [id=" + id + ", name=" + name + ", address=" + address + ", num=" + "]";
 	}
+	
 	 
 	 
 
